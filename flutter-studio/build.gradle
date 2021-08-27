@@ -4,12 +4,13 @@
  * found in the LICENSE file.
  */
 
-repositories {
+def = repositories {
   mavenCentral()
   maven {
     url "https://oss.sonatype.org/content/repositories/snapshots/"
   }
 }
+
 
 apply plugin: 'java'
 apply plugin: "org.jetbrains.intellij"
